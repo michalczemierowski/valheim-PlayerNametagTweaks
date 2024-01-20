@@ -1,0 +1,11 @@
+C:\Users\micha\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\mods\BepInEx\plugins\Me-NametagMod\Release\NametagMod.dll
+C:\Users\micha\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\mods\BepInEx\plugins\Me-NametagMod\Release\NametagMod.pdb
+C:\Users\micha\source\repos\NametagMod\NametagMod\obj\Release\NametagMod.csproj.AssemblyReference.cache
+C:\Users\micha\source\repos\NametagMod\NametagMod\obj\Release\MyPluginInfo.cs
+C:\Users\micha\source\repos\NametagMod\NametagMod\obj\Release\NametagMod.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\micha\source\repos\NametagMod\NametagMod\obj\Release\NametagMod.AssemblyInfoInputs.cache
+C:\Users\micha\source\repos\NametagMod\NametagMod\obj\Release\NametagMod.AssemblyInfo.cs
+C:\Users\micha\source\repos\NametagMod\NametagMod\obj\Release\NametagMod.csproj.CoreCompileInputs.cache
+C:\Users\micha\source\repos\NametagMod\NametagMod\obj\Release\NametagMod.csproj.CopyComplete
+C:\Users\micha\source\repos\NametagMod\NametagMod\obj\Release\NametagMod.dll
+C:\Users\micha\source\repos\NametagMod\NametagMod\obj\Release\NametagMod.pdb
