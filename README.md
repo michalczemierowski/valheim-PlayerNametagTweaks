@@ -7,3 +7,6 @@ This mod increases player nametag render distance and makes so nametags are scal
 1. Scale down nametag over distance (default = *True*)
 
 ![Screenshot](https://github.com/michalczemierowski/valheim-PlayerNametagTweaks/blob/master/screenshots/ss.png?raw=true "a title")
+
+## Thunderstore link:
+https://thunderstore.io/c/valheim/p/ginger8read/PlayerNametagTweaks/
