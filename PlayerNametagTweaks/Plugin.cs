@@ -15,6 +15,7 @@ namespace PlayerNametagTweaks
         private Harmony harmony;
         private ConfigEntry<float> nametagDistance;
         private ConfigEntry<bool> scaleDownOverDistance;
+        private ConfigEntry<bool> showNametagsWhenSneaking;
 
         private void Awake()
         {
@@ -32,6 +33,12 @@ namespace PlayerNametagTweaks
                 "Scale down nametag over distance",
                 true
             );
+            showNametagsWhenSneaking = Config.Bind(
+                "General",
+                "Show nametag when crouching",
+                true,
+                configDescription: new ConfigDescription("Show player nametags when they're sneaking/crouching")
+            );
         }
 
         private static FieldInfo playerPositionRefPointField = typeof(EnemyHud).GetField("m_refPoint", BindingFlags.NonPublic | BindingFlags.Instance);
@@ -43,6 +50,8 @@ namespace PlayerNametagTweaks
         private static void ShowCharacterHudPostfix(ref EnemyHud __instance, ref bool __result, Character c, bool isVisible)
         {
             if (c == null || !c.IsPlayer())
+                return;
+            if (!Instance.showNametagsWhenSneaking.Value && c.IsCrouching())
                 return;
 
             var localPlayerPos = (Vector3)playerPositionRefPointField.GetValue(__instance);
@@ -71,11 +80,13 @@ namespace PlayerNametagTweaks
 
         private static bool TryGetCharacterHudData(EnemyHud hudController, Character character, out object hudData)
         {
-            var huds = hudsDictionaryField.GetValue(hudController) as IDictionary;
-            if (huds != null)
+            if (hudsDictionaryField.GetValue(hudController) is IDictionary huds)
             {
                 foreach (DictionaryEntry entry in huds)
                 {
+                    if (entry.Key == null || entry.Value == null)
+                        continue;
+
                     if (ReferenceEquals(entry.Key, character))
                     {
                         hudData = entry.Value;

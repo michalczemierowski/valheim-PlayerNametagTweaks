@@ -37,14 +37,11 @@ E:\Projects\Mods\valheim-PlayerNametagTweaks\PlayerNametagTweaks\bin\Release\net
 E:\Projects\Mods\valheim-PlayerNametagTweaks\PlayerNametagTweaks\bin\Release\net40\assembly_postprocessing.dll
 E:\Projects\Mods\valheim-PlayerNametagTweaks\PlayerNametagTweaks\bin\Release\net40\assembly_sunshafts.dll
 E:\Projects\Mods\valheim-PlayerNametagTweaks\PlayerNametagTweaks\bin\Release\net40\UnityEngine.UI.dll
-E:\Projects\Mods\valheim-PlayerNametagTweaks\PlayerNametagTweaks\bin\Release\net40\Fishlabs.Core.dll
-E:\Projects\Mods\valheim-PlayerNametagTweaks\PlayerNametagTweaks\bin\Release\net40\ui_lib.dll
 E:\Projects\Mods\valheim-PlayerNametagTweaks\PlayerNametagTweaks\bin\Release\net40\assembly_guiutils.dll
 E:\Projects\Mods\valheim-PlayerNametagTweaks\PlayerNametagTweaks\bin\Release\net40\com.rlabrecque.steamworks.net.dll
 E:\Projects\Mods\valheim-PlayerNametagTweaks\PlayerNametagTweaks\bin\Release\net40\PlayFab.dll
 E:\Projects\Mods\valheim-PlayerNametagTweaks\PlayerNametagTweaks\bin\Release\net40\PlayFabParty.dll
 E:\Projects\Mods\valheim-PlayerNametagTweaks\PlayerNametagTweaks\bin\Release\net40\Unity.InputSystem.dll
-E:\Projects\Mods\valheim-PlayerNametagTweaks\PlayerNametagTweaks\bin\Release\net40\Fishlabs.Common.dll
 E:\Projects\Mods\valheim-PlayerNametagTweaks\PlayerNametagTweaks\obj\Release\net40\PlayerNametagTweaks.csproj.AssemblyReference.cache
 E:\Projects\Mods\valheim-PlayerNametagTweaks\PlayerNametagTweaks\obj\Release\net40\MyPluginInfo.cs
 E:\Projects\Mods\valheim-PlayerNametagTweaks\PlayerNametagTweaks\obj\Release\net40\PlayerNametagTweaks.GeneratedMSBuildEditorConfig.editorconfig
@@ -54,3 +51,7 @@ E:\Projects\Mods\valheim-PlayerNametagTweaks\PlayerNametagTweaks\obj\Release\net
 E:\Projects\Mods\valheim-PlayerNametagTweaks\PlayerNametagTweaks\obj\Release\net40\PlayerNametagTweaks.csproj.CopyComplete
 E:\Projects\Mods\valheim-PlayerNametagTweaks\PlayerNametagTweaks\obj\Release\net40\PlayerNametagTweaks.dll
 E:\Projects\Mods\valheim-PlayerNametagTweaks\PlayerNametagTweaks\obj\Release\net40\PlayerNametagTweaks.pdb
+E:\Projects\Mods\valheim-PlayerNametagTweaks\PlayerNametagTweaks\bin\Release\net40\SoftReferenceableAssets.dll
+E:\Projects\Mods\valheim-PlayerNametagTweaks\PlayerNametagTweaks\bin\Release\net40\PlatformTools.Core.dll
+E:\Projects\Mods\valheim-PlayerNametagTweaks\PlayerNametagTweaks\bin\Release\net40\gui_framework.dll
+E:\Projects\Mods\valheim-PlayerNametagTweaks\PlayerNametagTweaks\bin\Release\net40\PlatformTools.Common.dll
