@@ -1,4 +1,4 @@
-# Player Nametag Tweaks v1.0.1
+# Player Nametag Tweaks v1.0.2
 
 This mod increases player nametag render distance and makes so nametags are scaled down if far away (can be turned off).
 
